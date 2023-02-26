@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comvey Group</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b92307f16f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!-- Header and Nav bar -->
+      <div class="nav-container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="images/Comvey_logo_Cutout.png"
+                alt="Comvey logo"
+                class="comvey-logo"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav ms-auto my-lg-0 navbar-nav-scroll">
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">Why Comvey</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cta">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <!-- Carousel -->
+
+      <div
+        id="comvey-carousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#comvey-carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#comvey-carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#comvey-carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/pexels-ricardo-esquivel-1666667.jpg"
+              class="d-block w-100 carousel-img"
+              alt="image-of-commercial-air-conditioning"
+            />
+            <div class="carousel-caption">
+              <h5>Commercial & Industrial</h5>
+              <p class="body-text">
+                State of the art high-capacity air-conditioning solutions, with
+                cooling towers.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/pexels-helena-lopes-3215593.jpg"
+              class="d-block w-100 carousel-img"
+              alt="image-of-light-commercial-air-conditioning"
+            />
+            <div class="carousel-caption">
+              <h5>Light Commercial</h5>
+              <p class="body-text">
+                State of the art high-capacity air-conditioning solutions, with
+                cooling towers.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/pexels-max-vakhtbovych-6316067.jpg"
+              class="d-block w-100 carousel-img"
+              alt="image-of-residential-air-conditioning"
+            />
+            <div class="carousel-caption">
+              <h5>Domestic & Residential</h5>
+              <p class="body-text">
+                State of the art high-capacity air-conditioning solutions, with
+                cooling towers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#comvey-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#comvey-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="container-fluid features-container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 feature-box">
+            <i class="fa-solid fa-lightbulb fa-3x awesome-icons"></i>
+            <h3 class="title-text">Save Power</h3>
+            <p class="body-text">
+              Comvey customizes the right VAC solution for your needs. You only
+              pay for what you need.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12 feature-box">
+            <i class="fa-solid fa-heart-pulse fa-3x awesome-icons"></i>
+            <h3 class="title-text">Healthy Air</h3>
+            <p class="body-text">
+              Our mission is to keep you healthy, comfortable and happy in your
+              living and working spaces.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12 feature-box">
+            <i class="fa-solid fa-wrench fa-3x awesome-icons"></i>
+            <h3 class="title-text">Carefree Servicing</h3>
+            <p class="body-text">
+              From installation to regular maintenance, Comvey's experts are a
+              phone-call away.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials-container">
+      <div id="comvey-testimonial-carousel" class="carousel slide">
+        <div class="carousel-inner testimonial-carousel">
+          <div class="carousel-item active">
+            <div class="row">
+              <div
+                class="col-lg-4 col-md-12 col-sm-12 testimonial-image-container"
+              >
+                <div class="testimonial-avatar-backdrop1">
+                  <img
+                    src="images/Customer_Avatar.png"
+                    class="testimonial-image"
+                    alt="customer-avatar"
+                  />
+                  <h4 class="testimonial-avatar-title">John Doe</h4>
+                  <p class="testimonial-avatar-title">
+                    Procurement Manager, Ceylon Textiles
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-lg-8 col-md-12 col-sm-12 testimonial-text-container"
+              >
+                <h3 class="title-text">Amazing service!</h3>
+                <p class="testimonial-comma start">&#8220;</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Autem reprehenderit dolores placeat! Amet dignissimos alias
+                  esse aliquid excepturi recusandae reprehenderit rerum deserunt
+                  quos, quia, veniam libero laudantium nostrum assumenda.
+                  Excepturi repudiandae facilis ullam dignissimos, autem tempora
+                  quos accusamus nesciunt ab ratione voluptatem omnis adipisci
+                  laborum temporibus atque doloribus voluptatum vero?
+                </p>
+                <p class="testimonial-comma end">&#8221;</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-4 testimonial-image-container">
+                <div class="testimonial-avatar-backdrop1">
+                  <img
+                    src="images/Customer_Avatar.png"
+                    class="testimonial-image"
+                    alt="customer-avatar"
+                  />
+                  <h4 class="testimonial-avatar-title">John Doe</h4>
+                  <p class="testimonial-avatar-title">
+                    Assistant Manager, Ceylon company
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-8 testimonial-text-container">
+                <h3 class="title-text">Great pricing!</h3>
+                <p class="testimonial-comma start">&#8220;</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Autem reprehenderit dolores placeat! Amet dignissimos alias
+                  esse aliquid excepturi recusandae reprehenderit rerum deserunt
+                  quos, quia, veniam libero laudantium nostrum assumenda.
+                  Excepturi repudiandae facilis ullam dignissimos, autem tempora
+                  quos accusamus nesciunt ab ratione voluptatem omnis adipisci
+                  laborum temporibus atque doloribus voluptatum vero?
+                </p>
+                <p class="testimonial-comma end">&#8221;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#comvey-testimonial-carousel"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon carousel-arrow"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#comvey-testimonial-carousel"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon carousel-arrow"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Pricing -->
+    <section id="pricing">
+      <div class="container-fluid pricing-container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card h-100">
+              <img
+                src="images/pexels-max-rahubovskiy-6316066-cutout.png"
+                class="card-img-top"
+                alt="residential-air-conditioner-example"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Domestic & Residential</h5>
+                <p class="card-text">Domestic Air Conditioners</p>
+                <p class="card-text">
+                  Inverters and non-inverters with wall-mount
+                </p>
+                <p class="card-text">Floor standing and floor ceiling</p>
+                <div class="d-grid">
+                  <button href="#" class="btn btn-primary">Sign up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card h-100">
+              <img
+                src="images/pexels-henry-&-co-1188576_cutout.png"
+                class="card-img-top"
+                alt="residential-air-conditioner-example"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Light Commercial</h5>
+                <p class="card-text">Single split-units of ceiling cassettes</p>
+                <p class="card-text">Floor standing and floor ceiling</p>
+                <p class="card-text">Ducted units</p>
+                <p class="card-text">Air curtains</p>
+                <p class="card-text">
+                  Separate air handling & ventilation systems
+                </p>
+                <div class="d-grid">
+                  <button href="#" class="btn btn-dark">Sign up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card h-100">
+              <img
+                src="images/pexels-sergei-a-2539462_cutout.png"
+                class="card-img-top"
+                alt="residential-air-conditioner-example"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Commerical & Industrial</h5>
+                <p class="card-text">Advanced VRV systems</p>
+                <p class="card-text">Cooling towers</p>
+                <p class="card-text">Package units</p>
+                <p class="card-text">Chillers</p>
+                <p class="card-text">
+                  Professional and industrial air handling systems
+                </p>
+                <p class="card-text">Humidifiers & dehumidifiers</p>
+                <div class="d-grid">
+                  <button href="#" class="btn btn-dark">Sign up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call to Action -->
+    <section id="cta">
+      <div class="container-fluid">
+        <h3 class="title-text">Talk to our experts today!</h3>
+        <p>
+          Comvey (Pvt) Ltd. is a private owned company offering VAC Services to
+          the Sri Lankan market since 2016. We work with the best experts in the
+          industry, and our staff are highly experienced professionals who have
+          proven records of providing economical environmentally friendly indoor
+          comfort.
+        </p>
+        <p>
+          Our installation techniques are the best in the industry and are
+          uniquely customizable to the very specific needs of your building. Our
+          consultant architects ensure that the sophisticated cooling technology
+          of your choice is compatible with your architectural design.
+        </p>
+        <div class="cta-button btn">
+          <btn href="#"><i class="fa-solid fa-phone cta-icon"></i>Call Us</btn>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="container-fluid">
+          <i class="footer-icon fa-brands fa-twitter"></i>
+          <i class="footer-icon fa-brands fa-facebook-f"></i>
+          <i class="footer-icon fa-brands fa-instagram"></i>
+          <i class="footer-icon fa-solid fa-envelope"></i>
+          <p>© Copyright Comveygroup Ltd.</p>
+        </div>
+      </footer>
+    </footer>
+  </body>
+</html>
